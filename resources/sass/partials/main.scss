@@ -1,0 +1,19 @@
+section {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            width: 20rem;
+            margin: 1rem;
+            border: 1px solid black;
+            border-radius: 1rem;
+            padding: 2rem 1rem;
+        }
+    }
+}
